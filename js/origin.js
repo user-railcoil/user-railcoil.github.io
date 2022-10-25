@@ -1,6 +1,6 @@
 var body = document.querySelector( 'body' );
-var design = document.getElementById( 'design' );
-var behavior = document.getElementById( 'behavior' );
+var one = document.getElementById( 'one' );
+var three = document.getElementById( 'three' );
 
 function colorBackground() {
   body.style.backgroundColor = '#0bb';
@@ -9,14 +9,14 @@ function removeBackground() {
   body.style.backgroundColor = '#eee';
 }
 
-design
+one
   .addEventListener( 'mouseover', colorBackground );
 
-design
+one
   .addEventListener( 'mouseout', removeBackground );
 
-behavior
+three
   .addEventListener( 'mouseover', colorBackground );
 
-behavior
+three
   .addEventListener( 'mouseout', removeBackground );
