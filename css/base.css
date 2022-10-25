@@ -3,7 +3,7 @@ html, body, nav, div {
   height: 100%;
   width: 100%;
 }
-html {
+html, div {
   font-family: Arial;
   background-color: #eee;
   color: #444;
@@ -16,6 +16,9 @@ body {
 nav, div {
   display: flex;
   flex-direction: column;
+}
+nav {
+  transform: scale( 0.9 );
 }
 div {
   outline: 1px solid #ddd;
