@@ -21,6 +21,12 @@ a {
   color: #444;
   text-decoration: none;
   text-transform: uppercase;
+  z-index: 10;
+  position: relative;
+  border: 5px solid hotpink;
+}
+a:last-child {
+  z-index: 1;
 }
 a:hover {
   background-color: #0aa;
