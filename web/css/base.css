@@ -5,7 +5,8 @@ html, body, nav, a {
 }
 body {
   font-family: Arial;
-  background-color: #333;
+  background-color: #222;
+  overflow: hidden;
 }
 nav, a {
   display: flex;
@@ -20,23 +21,35 @@ a {
   color: #444;
   text-decoration: none;
   text-transform: uppercase;
+  z-index: 10;
+}
+a:last-child {
+  z-index: 1;
 }
 a:hover {
   background-color: #0aa;
   color: #eee;
 }
-a:hover span {
+a:hover h2 {
   opacity: 0.75;
+  letter-spacing: 2rem;
 }
 a:active {
   filter: brightness( 125% );
 }
-a:active span {
+a:active h2 {
   opacity: 0.25;
 }
-span {
-  margin: auto;
-  font-size: 1.25rem;
+h2 {
+  position: absolute;
+  top: 50%; left: 50%;
+  font-weight: normal;
+  transform: 
+    translateX( -50% ) 
+    translateY( -100% );
+  transition-property: letter-spacing;
+  transition-duration: 60s;
+  transition-timing-function: ease-out;
 }
 @media( orientation: landscape ) {
   nav, a {
