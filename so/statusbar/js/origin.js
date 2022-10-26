@@ -19,4 +19,4 @@ three
   .addEventListener( 'mouseover', colorBackground );
 
 three
-  .addEventListener( 'mouseout', removeBackgro
+  .addEventListener( 'mouseout', removeBackground );
