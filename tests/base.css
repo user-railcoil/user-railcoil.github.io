@@ -1,0 +1,15 @@
+html, body {
+  margin: 0;
+  height: 100%;
+}
+body {
+  display: flex;
+  font-family: Arial;
+  background-color: #eee;  
+}
+button {
+  margin: auto;
+  padding: 2rem;
+  text-transform: capitalize;
+  cursor: pointer;
+}
