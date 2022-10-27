@@ -7,9 +7,14 @@ body {
   font-family: Arial;
   background-color: #eee;  
 }
-button {
+div {
   margin: auto;
   padding: 2rem;
   text-transform: capitalize;
   cursor: pointer;
+  background-color: #0bb;
+  color: hsla( 0,0%,25%,0.5 );
+  border-radius: 2rem;
+  font-weight: bold;
+  font-size: 1.25rem;
 }
