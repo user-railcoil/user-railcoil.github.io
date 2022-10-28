@@ -1,5 +1,6 @@
 let 
   head = document.querySelector( 'head' ),
+  body = document.querySelector( 'body' ),
   meta = document.createElement( 'meta' ),
   essential = document
     .querySelector( '.essential' ),
@@ -13,9 +14,11 @@ meta.content = '#0bb';
 
 function blueStatus() {
   head.appendChild( meta );
+  body.style.backgroundColor = '#0bb';
 }    
 function whiteStatus() {
   meta.remove();
+  body.style.backgroundColor = '#eee';  
 }
 
 essential
