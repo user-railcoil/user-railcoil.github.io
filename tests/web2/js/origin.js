@@ -22,6 +22,7 @@ function whiteStatus() {
 }
 function blueBackground() {
   body.style.backgroundColor = '#0bb';  
+  meta.remove();
 }
 
 essential
