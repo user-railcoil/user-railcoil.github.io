@@ -20,6 +20,9 @@ function whiteStatus() {
   meta.remove();
   body.style.backgroundColor = '#eee';  
 }
+function blueBackground() {
+  body.style.backgroundColor = '#0bb';  
+}
 
 essential
   .addEventListener( 'mouseover', blueStatus );
@@ -27,3 +30,6 @@ advanced
   .addEventListener( 'mouseover', whiteStatus );
 professional
   .addEventListener( 'mouseover', whiteStatus );
+professional
+  .addEventListener
+    ( 'mouseover', blueBackground );
