@@ -1,0 +1,13 @@
+body {
+  overflow-x: hidden;
+  overflow-y: visible;
+}
+#div {
+  width: 300px;
+  height: 1000px;
+  background-color: orange;
+}
+
+span {
+  background-color: blue;
+}
