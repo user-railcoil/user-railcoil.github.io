@@ -1,0 +1,33 @@
+html, body {
+  margin: 0; padding: 0;
+  background-color: #222;
+  font-family: Arial;
+  text-align: center;  
+ }
+body {
+  filter: brightness( 105% );
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #eee;
+}
+button {
+  cursor: pointer;
+  border: none;
+  padding: 3rem;
+  background-color: #ddd;
+  color: #222;
+  font-size: 1rem;
+  filter: brightness( 102% );  
+}
+button:hover, footer:hover {
+  background-color: #0cc; color: #eee;
+}
+button:active, footer:active {
+  background-color: #222; color: #222;
+}
+span {
+  opacity: 0.5;
+}
