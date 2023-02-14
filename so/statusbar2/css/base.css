@@ -1,0 +1,33 @@
+html, body, nav, div {
+  margin: 0;
+  height: 100%; width: 100%;
+}
+html, div {
+  font-family: Arial;
+  background-color: #eee; color: #444;
+  user-select: none;
+}
+body {
+  filter: brightness( 103.75% );
+  font-size:1.5rem;
+}
+nav, div {
+  display: flex; flex-direction: column;
+}
+div {
+  outline: 1px solid #ddd; cursor: pointer;
+}
+div:hover {
+  background-color: #0bb; color: #eee;
+}
+div:active {
+  filter: brightness( 0% );
+}
+p {
+  margin: auto; text-transform: uppercase;
+}
+@media( orientation: landscape ) {
+  nav, div {
+    flex-direction: row;
+  }
+}
