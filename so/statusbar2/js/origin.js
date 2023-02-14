@@ -1,6 +1,7 @@
 let 
   body = document.querySelector( 'body' ),
   one = document.getElementById( 'one' ),
+  two = document.getElementById( 'two' ),
   three = document.getElementById( 'three' ),
   html = document.documentElement;
 
@@ -44,11 +45,8 @@ function removeBackground() {
 one
   .addEventListener( 'mouseover', colorBackground );
 
-one
-  .addEventListener( 'mouseout', removeBackground );
+two
+  .addEventListener( 'mouseover', removeBackground );
 
 three
   .addEventListener( 'mouseover', colorBackground );
-
-three
-  .addEventListener( 'mouseout', removeBackground );
