@@ -50,3 +50,5 @@ two
 
 three
   .addEventListener( 'mouseover', colorBackground );
+
+alert( 'hi' );
