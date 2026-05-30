@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+html, body, article {
+    height: 100%;
+    text-align: center;
+    text-transform: capitalize;
+}
+html, body {
+    padding: 0.75rem;
+    color: #F98BA9;
+    text-shadow: 
+        /* 1. The crisp black barrier (keeps text sharp) */
+        1px 1px 2px #000000, 
+        /* 2. The intense inner core (adds the pronounced contrast) */
+        0 0 8px rgba(241, 162, 142, 0.65), 
+        /* 3. The wide outer haze (keeps the overall look ultra-soft) */
+        0 0 22px rgba(241, 162, 142, 0.35); 
+}
+html {
+    font-family: "Yellowtail", cursive;
+    font-weight: 400;
+    font-style: normal;    
+}
+body {
+    background-image: url( '../res/flower.jpg' );
+    background-size: cover;
+    font-size: 3.5vh;
+    transform: translateY( 5rem );
+}
+h1 {
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+h1, h2, span {
+    color: #eaeaea;
+}
+article {
+    display: flex;
+}
+ol {
+    margin: auto;
+    width: 45rem;
+    padding: 0.75rem;
+    transform: translateY( -7rem );
+    font-size: 3vh;
+}
+li {
+    padding: 0.75rem;
+}
+span {
+    font-weight: 600;
+}
