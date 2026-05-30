@@ -12,7 +12,7 @@ html, body, article {
     text-transform: capitalize;
 }
 html, body {
-    padding: 0.75rem;
+    padding: 0.5rem;
     color: #F98BA9;
     text-shadow: 
         /* 1. The crisp black barrier (keeps text sharp) */
@@ -30,7 +30,7 @@ html {
 body {
     background-image: url( '../res/flower.jpg' );
     background-size: cover;
-    font-size: 3.5vh;
+    font-size: 3vh;
     transform: translateY( 5rem );
 }
 h1 {
@@ -46,12 +46,12 @@ article {
 ol {
     margin: auto;
     width: 45rem;
-    padding: 0.75rem;
+    padding: 0.5rem;
     transform: translateY( -7rem );
     font-size: 3vh;
 }
 li {
-    padding: 0.75rem;
+    padding: 0.5rem;
 }
 span {
     font-weight: 600;
